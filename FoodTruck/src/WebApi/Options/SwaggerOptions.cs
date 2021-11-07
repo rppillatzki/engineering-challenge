@@ -35,7 +35,7 @@ namespace FoodTruck.WebApi.Options
         /// <inheritdoc/>
         public void Configure(SwaggerGenOptions options)
         {
-            // add swagger document for every API version discovered
+            // adds a swagger document for every API version discovered
             foreach (var description in Provider.ApiVersionDescriptions)
             {
                 options.SwaggerDoc(
@@ -51,7 +51,7 @@ namespace FoodTruck.WebApi.Options
         }
 
         /// <summary>
-        /// Create versioned Open API Info.
+        /// Creates versioned Open API Info.
         /// </summary>
         /// <param name="description">The <see cref="ApiVersionDescription"/>.</param>
         /// <returns>A new <see cref="OpenApiInfo"/> object.</returns>

@@ -34,7 +34,8 @@ namespace FoodTruck.WebApi
         public IConfiguration Configuration { get; }
 
         /// <summary>
-        /// This method gets called by the runtime. Use this method to add services to the container.
+        /// This method gets called by the runtime.
+        /// Use this method to add services to the container.
         /// </summary>
         /// <param name="services">The <see cref="IServiceCollection"/>.</param>
         public void ConfigureServices(IServiceCollection services)
@@ -49,7 +50,8 @@ namespace FoodTruck.WebApi
         }
 
         /// <summary>
-        /// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        /// This method gets called by the runtime.
+        /// Use this method to configure the HTTP request pipeline.
         /// </summary>
         /// <param name="application">The <see cref="IApplicationBuilder"/>.</param>
         /// <param name="environment">The <see cref="IWebHostEnvironment"/>.</param>

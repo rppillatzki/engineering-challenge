@@ -34,7 +34,7 @@ namespace FoodTruck.WebApi.Services
         private ILogger Logger { get; }
 
         /// <summary>
-        /// Gets the FoodTrucks dictionary.
+        /// Gets the Food Trucks dictionary.
         /// </summary>
         private FoodTruckDataCollection FoodTrucks { get; }
 

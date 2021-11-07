@@ -104,7 +104,7 @@ namespace FoodTruck.WebApi.Objects
         }
 
         /// <summary>
-        /// Add a collection Food Trucks into the FoodTruckDataCollection.
+        /// Add a collection of Food Trucks into the FoodTruckDataCollection.
         /// </summary>
         /// <param name="foodTrucks">The collection of Food Trucks to add.</param>
         /// <returns>True if the Food Trucks are added else false.</returns>
@@ -138,7 +138,7 @@ namespace FoodTruck.WebApi.Objects
         }
 
         /// <summary>
-        /// Adds a new HashSet with the id added.
+        /// Adds a new HashSet with the id added to it.
         /// </summary>
         /// <param name="key">The key to the parent collection.</param>
         /// <param name="newValue">The new value to add.</param>

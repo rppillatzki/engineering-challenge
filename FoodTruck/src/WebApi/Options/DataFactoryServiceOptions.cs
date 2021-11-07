@@ -4,8 +4,6 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-using Microsoft.Extensions.Options;
-
 namespace FoodTruck.WebApi.Options
 {
     /// <summary>
