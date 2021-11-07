@@ -17,7 +17,7 @@ using Microsoft.Extensions.Options;
 namespace FoodTruck.WebApi.Extensions
 {
     /// <summary>
-    /// The SeviceCollection Extension methods.
+    /// The ServiceCollection Extension methods.
     /// </summary>
     public static class ServiceCollectionExtensions
     {
@@ -90,7 +90,7 @@ namespace FoodTruck.WebApi.Extensions
         {
             serviceCollection.AddSwaggerGen(c =>
             {
-                // Set the comments path for the Swagger JSON and UI.
+                // Set the comments path for Swagger.
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
