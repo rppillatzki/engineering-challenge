@@ -12,12 +12,12 @@ namespace FoodTruck.WebApi.Constants
     public class ValidationConstants
     {
         /// <summary>
-        /// Max Location Id Value.
+        /// Max Location Id value.
         /// </summary>
         public const long MaxLocationId = 1000000000;
 
         /// <summary>
-        /// Min Location Id Value.
+        /// Min Location Id value.
         /// </summary>
         public const long MinLocationId = 1;
 
