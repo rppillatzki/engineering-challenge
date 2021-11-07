@@ -39,7 +39,7 @@ namespace FoodTruck.WebApi.Controllers.V1
         /// <summary>
         /// Gets the list of Food Trucks.
         /// </summary>
-        /// <returns>TBD.</returns>
+        /// <returns>A collection of <see cref="FoodTruckModel"/>.</returns>
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public IActionResult GetFoodTrucks()
@@ -52,7 +52,7 @@ namespace FoodTruck.WebApi.Controllers.V1
         /// <summary>
         /// Gets a Food Truck by locationId.
         /// </summary>
-        /// <param name="locationId">The FoodTruck unique identifier.</param>
+        /// <param name="locationId">The Food Truck unique identifier.</param>
         /// <returns>A <see cref="FoodTruckModel"/> or null.</returns>
         [HttpGet("locationId/{locationId}")]
         [ProducesResponseType(typeof(FoodTruckModel), StatusCodes.Status200OK)]
@@ -75,7 +75,7 @@ namespace FoodTruck.WebApi.Controllers.V1
         /// Gets a list of Food Trucks by block.
         /// </summary>
         /// <param name="block">The block identifier.</param>
-        /// <returns>A <see cref="FoodTruckModel"/> or null.</returns>
+        /// <returns>A collection of <see cref="FoodTruckModel"/> or null.</returns>
         [HttpGet("block/{block}")]
         [ProducesResponseType(typeof(IEnumerable<FoodTruckModel>), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
